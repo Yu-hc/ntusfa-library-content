@@ -1,0 +1,436 @@
+/* home */
+.body {
+	width: 100vw;
+
+	background: #fff;
+}
+
+.nobr {
+	white-space: nowrap;
+}
+
+/* compoent 1 */
+.header-section {
+	display: flex;
+	margin: 0;
+	height: 100px;
+	padding: 29px 53px;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+
+	background: #fff;
+}
+/* frame 174 */
+.header-wrap {
+	display: flex;
+	width: 100%;
+	height: 100px;
+	padding: 50px 20px;
+	justify-content: space-between;
+	align-items: center;
+	flex-shrink: 0;
+}
+/* frame 170 */
+.header-contents {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: flex-start;
+	/* gap: 304px; */
+	flex-shrink: 0;
+
+	background: #fff;
+}
+/* frame 171 */
+.logo-and-name {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+/* meubel house logo */
+.logo {
+	width: 50px;
+	height: 32px;
+	background: url("https://cdn.builder.io/api/v1/image/assets/TEMP/6e2e980647eaf612e7339b1d680d0ff1adada95b1cfaecd6c6ac332967d4798d?placeholderIfAbsent=true&apiKey=df7b825baf8b4b6784bc821b6e180345")
+		lightgray -13px -22px / 154% 240.625% no-repeat;
+}
+/* skin clinic */
+.name {
+	width: 144px;
+	height: 41px;
+
+	color: #000;
+	font-family: Montserrat;
+	font-size: 34px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+/* frame 174 */
+.guis {
+	display: flex;
+	height: 41px;
+	justify-content: center;
+	align-items: center;
+	gap: 52px;
+	flex: 1 0 0;
+}
+/* contents in frame 174 */
+.gui {
+	width: 48px;
+	height: 24px;
+
+	color: #000;
+	font-family: Poppins;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+/* akar-icons:search */
+.search {
+	display: flex;
+	width: 26.167px;
+	height: 41px;
+	padding: 2px;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 10px;
+	flex-shrink: 0;
+}
+/* vector */
+.search.icon {
+	width: 22.167px;
+	height: 22.167px;
+	flex-shrink: 0;
+
+	stroke-width: 2px;
+	stroke: #000;
+}
+/* frame 169 */
+.banner-section {
+	display: flex;
+	width: 100vw;
+	height: 46rem;
+	flex-shrink: 0;
+	position: relative;
+}
+/* mask group */
+.banner-section .mask-group {
+	width: 100vw;
+	height: 727.651px;
+	flex-shrink: 0;
+}
+/* scandinavian-interior-mockup-wall... */
+.banner-section .image {
+	width: 100vw;
+	height: 46rem;
+	flex-shrink: 0;
+	background-color: aqua;
+	/* background: url("../../public/images/scandinavian-interior-mockup-wall-decal-background-1.png"); */
+	background-image: url("../public/scandinavian-interior-mockup-wall-decal-background-1.png");
+}
+/* rectangle 114 */
+.event-container {
+	width: 643px;
+	height: 443px;
+	flex-shrink: 0;
+	position: absolute;
+	right: 3.63rem;
+	top: 9.74rem;
+}
+.event-content div {
+	position: absolute;
+	left: 2.56rem;
+}
+/* rectangle 77 */
+.event-background {
+	width: 643px;
+	height: 443px;
+	flex-shrink: 0;
+
+	border-radius: 10px;
+	background: #fff3e3;
+}
+.new-events {
+	top: 6.13rem;
+}
+/* group 88 */
+.event-content {
+	width: 100%;
+	height: 100%;
+}
+/* Dermatology & Skin C */
+.event-title {
+	top: 7.87rem;
+	width: 559px;
+	height: 127px;
+
+	color: var(--Primary, #b88e2f);
+	font-family: Poppins;
+	font-size: 3.25rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 4.0625rem; /* 125% */
+}
+/* treating all skin co */
+.event-detail {
+	top: 16.63rem;
+	width: 546px;
+	height: 52.785px;
+	flex-shrink: 0;
+	color: var(--Font-Color, #333);
+	font-family: Poppins;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 24px; /* 133.333% */
+}
+/* frame 94 */
+.event-join-button {
+	margin-top: 20.76rem;
+	padding: 1.56rem 4.5rem;
+	color: #fff;
+	font-family: Poppins;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: uppercase;
+	background: var(--Primary, #b88e2f);
+}
+
+.bookshelves-section {
+	height: 46rem;
+	width: 100%;
+	background-color: white;
+	position: relative;
+}
+.title-container {
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 4rem;
+	width: 34.9375rem;
+	height: 4.81188rem;
+}
+.title-container div {
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	width: fit-content;
+}
+.title-container .title {
+	color: var(--Font-Color, #333);
+	font-family: Poppins;
+	font-size: 2rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+.title-container .subtitle {
+	color: var(--Font-Color1, #666);
+	text-align: center;
+	font-family: Poppins;
+	font-size: 1.25rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.bookshelf-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1.25rem;
+	overflow-x: scroll;
+	width: 100%;
+	height: 34.12rem;
+	position: absolute;
+	top: 12rem;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.bookshelf {
+	height: 100%;
+}
+.bookshelf-image {
+	width: 23.8125rem;
+	height: 30rem;
+	flex-shrink: 0;
+	border-radius: 0.625rem;
+	background: #d9d9d9;
+}
+.bookshelf-name {
+	position: relative;
+	top: 1.88rem;
+
+	color: var(--Font-Color, #333);
+	text-align: center;
+	font-family: Poppins;
+	font-size: 1.5rem;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+
+.new-arrivals-section {
+	height: 46rem;
+	width: 100%;
+	background-color: white;
+	position: relative;
+}
+.new-arrivals-section .title {
+	color: var(--Color-Gray-1, #3a3a3a);
+	text-align: center;
+	font-family: Poppins;
+	font-size: 2.5rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 120%; /* 3rem */
+}
+.book-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1.25rem;
+	overflow-x: scroll;
+	width: 100%;
+	height: 34.12rem;
+	position: absolute;
+	top: 12rem;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.book {
+	height: 100%;
+}
+.book-image {
+	width: 17.8125rem;
+	height: 27.875rem;
+	flex-shrink: 0;
+	background-color: #d9d9d9;
+}
+.new-arrivals-section .show-more-button {
+	width: 15.3125rem;
+	height: 3rem;
+	flex-shrink: 0;
+
+	border: 1px solid var(--Primary, #b88e2f);
+	background: #fff;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 0;
+}
+.show-more-button .button-text {
+	color: var(--Primary, #b88e2f);
+	font-family: Poppins;
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 150%; /* 1.5rem */
+	width: fit-content;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.footer-section {
+	width: 100%;
+	height: 31.5625rem;
+	flex-shrink: 0;
+	background-color: white;
+	position: relative;
+}
+.footer-section .title {
+	color: #000;
+	font-family: Poppins;
+	font-size: 1.5rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+.footer-section .info {
+	color: #9f9f9f;
+	font-family: Poppins;
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	width: 17.8125rem;
+	margin-top: 2.56rem;
+}
+.footer-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+	gap: 3.5rem;
+	left: 6.38rem;
+	right: 6.38rem;
+	top: 3rem;
+	position: absolute;
+	
+	padding-bottom: 3rem;
+	border-bottom-style: solid;
+	border-bottom-color: #D9D9D9;;
+}
+@media (max-width:1120px) {
+	.footer-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+		gap: 2rem;
+		left: 6.38rem;
+	}
+}
+@media (max-width:700px) {
+	.footer-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+		gap: 2.5rem;
+		
+	}
+}
+.footer-content {
+	height:fit-content;
+}
+.footer-section .sub-title {
+	color: #9f9f9f;
+	font-family: Poppins;
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+.link-container {
+	width: 4.125rem;
+	height: 14.5625rem;
+	flex-shrink: 0;
+	margin-top: 3.44rem;
+}
+.link-container .link {
+	color: #000;
+	font-family: Poppins;
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	margin-bottom: 2.88rem;
+}
+
+.join-us {
+	top: 3rem;
+	left: 45.94rem;
+	
+}
+.join-us .link-container {
+	width: 4rem;
+	height: 15.125rem;
+	flex-shrink: 0;
+}
+.say-anything {
+	width: 17.87519rem;
+	height: 6.3125rem;
+	flex-shrink: 0;
+}
